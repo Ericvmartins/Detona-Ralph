@@ -9,7 +9,7 @@
 - [📌 Credits](#-Credits)
 
 ## 📖 About
-Project developed during Bootcamp [Ri Happy - Front-end do Zero](https://web.dio.me/track/coding-future-front-end-do-zero) with professor [Felipe Aguiar](https: //github.com/felipeAguiarCode). The game is based on the film Wreck-It Ralph. Three difficulties are presented: "Easy, "Medium and "Fix It Félix", the objective of the game is to be able to hit Ralph who keeps changing windows as many times as possible, when he is hit the score increases.
+Project developed during Bootcamp [Ri Happy - Front-end do Zero](https://web.dio.me/track/coding-future-front-end-do-zero) with professor [Felipe Aguiar](https://github.com/felipeAguiarCode). The game is based on the film Wreck-It Ralph. Three difficulties are presented: "Easy, "Medium and "Fix It Félix", the objective of the game is to be able to hit Ralph who keeps changing windows as many times as possible, when he is hit the score increases.
 
 ## 👨🏻‍💻 Technologies
 
