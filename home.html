@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detona Ralph - Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap" rel="stylesheet">
+  
+  
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body class="body-home">
+    <div class="dificuldade">
+        <h1>Escolha a Dificuldade</h1>
+        <button id="facil">Fácil</button>
+        <button id="medio">Médio</button>
+        <button id="dificil">Fix-It Felix</button>
+    </div>
+    
+    <script>
+        document.getElementById("facil").addEventListener("click", () => {
+            localStorage.setItem("difficulty", "easy");
+            window.location.href = 'index.html';
+        });
+    
+        document.getElementById("medio").addEventListener("click", () => {
+            localStorage.setItem("difficulty", "medium");
+            window.location.href = 'index.html';
+        });
+    
+        document.getElementById("dificil").addEventListener("click", () => {
+            localStorage.setItem("difficulty", "difficult");
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
